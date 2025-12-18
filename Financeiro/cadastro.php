@@ -45,11 +45,12 @@ if (isset($_POST['btnFinalizar'])){
                             </div>
                             <div class="form-group input-group">
                                 <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                <input type=""  id="senha"  class="form-control" placeholder="Crie uma senha (Mínimo de 6 caracteres)" name="senha" maxlength="20"/>
+                                <input type="password"  id="senha"  class="form-control" placeholder="Crie uma senha (Mínimo de 6 caracteres)" name="senha" maxlength="20"/>
                             </div>
                             <div class="form-group input-group">
                                 <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                <input type=""  id="repSenha" class="form-control" placeholder="Repita a senha criada" name="repSenha" maxlength="20"/>
+
+                                <input type="password"  id="repSenha" class="form-control" placeholder="Repita a senha criada" name="repSenha" maxlength="20"/>
                             </div>
                             <button name="btnFinalizar" type="submit" class="btn btn-success" onclick="return ValidarCadastro()">Finalizar Cadastro</button>
                             <hr />
